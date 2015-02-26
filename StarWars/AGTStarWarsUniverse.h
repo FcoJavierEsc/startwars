@@ -11,6 +11,13 @@
 
 @interface AGTStarWarsUniverse : NSObject
 
+-(NSInteger ) numberSections:(NSInteger)sectionNumber;
+-(NSString *) elTitulo:(NSInteger)sectionNumber;
+
+-(AGTStarWarsCharacter *) sicCharacterDef:(NSIndexPath *)indexPath;
+-(AGTStarWarsCharacter *) sicPrimero;
+
+/*
 @property (nonatomic, readonly) NSUInteger rebelCount;
 @property (nonatomic, readonly) NSUInteger imperialCount;
 @property (nonatomic, readonly) NSUInteger mixtaCount;
@@ -18,5 +25,6 @@
 -(AGTStarWarsCharacter *) rebelAtIndex:(NSUInteger) index;
 -(AGTStarWarsCharacter *) imperialAtIndex:(NSUInteger) index;
 -(AGTStarWarsCharacter *) mixtaAtIndex:(NSUInteger) index;
+*/
 
 @end

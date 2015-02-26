@@ -74,7 +74,7 @@
                                               style:UITableViewStylePlain];
     
     AGTCharacterViewController *cVC = [[AGTCharacterViewController alloc]
-                                       initWithModel:[model imperialAtIndex:0]];
+                                       initWithModel:[model sicPrimero]];
     
     // Creo el combinador
     UISplitViewController *splitVC = [UISplitViewController new];

@@ -6,11 +6,6 @@
 //  Copyright (c) 2015 Agbo. All rights reserved.
 //
 
-#define IMPERIAL_SECTION 4
-#define REBEL_SECTION 1
-#define MIXTA_SECTION 0
-
-#define NUM_SECTION 5
 
 #define CHARACTER_DID_CHANGE_NOTIFICATION @"characterDidChange"
 #define CHARACTER_KEY @"character"

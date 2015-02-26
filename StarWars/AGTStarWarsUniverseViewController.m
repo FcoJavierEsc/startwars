@@ -47,32 +47,19 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return NUM_SECTION;
+  
+    return [self.model numberSections: -1];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    switch (section) {
-        case IMPERIAL_SECTION:
-            return [self.model imperialCount];
-            
-        case REBEL_SECTION:
-            return [self.model rebelCount];
-            
-        case MIXTA_SECTION:
-            return [self.model mixtaCount];
-           
-        default:
-            return 0;
-          
-    }
-
+    return [self.model numberSections:section ];
 }
 
 -(AGTStarWarsCharacter *) sicCharacter:(NSIndexPath *) indexPath{
     // Averiguar de qué personaje me habla
     AGTStarWarsCharacter *character = nil;
-    
+    /*
     switch (indexPath.section) {
         case IMPERIAL_SECTION:
             character = [self.model imperialAtIndex:indexPath.row];
@@ -83,7 +70,7 @@
         case MIXTA_SECTION:
             character = [self.model mixtaAtIndex:indexPath.row];
             break;
-    }
+    }*/
     return character;
 }
 
@@ -117,21 +104,9 @@
 
 -(NSString*) tableView:(UITableView *)tableView
 titleForHeaderInSection:(NSInteger)section{
+    return [self.model elTitulo:section];
     
-    switch (section) {
-        case IMPERIAL_SECTION:
-            return @"Galactic Empire";
-            break;
-        case REBEL_SECTION:
-            return @"Rebel Alliance";
-            break;
-        case MIXTA_SECTION:
-            return @"Chancy Alliance";
-            break;
-        default:
-            return @"TURURU";
-            break;
-    }
+
   
 }
 

@@ -10,26 +10,19 @@
 
 @interface AGTStarWarsUniverse ()
 
-@property (nonatomic, strong) NSArray *imperials;
-@property (nonatomic, strong) NSArray *rebels;
-@property (nonatomic, strong) NSArray *mixta;
-
+//@property (nonatomic, strong) NSArray *imperials;
+//@property (nonatomic, strong) NSArray *rebels;
+//@property (nonatomic, strong) NSArray *mixta;
+@property (nonatomic, strong) NSArray *listas;
+@property(nonatomic,strong) NSArray *titulos;
+@property(nonatomic,strong) AGTStarWarsCharacter *prim;
 @end
+
 @implementation AGTStarWarsUniverse
 
 
 #pragma mark - Properties
--(NSUInteger) rebelCount{
-    return [self.rebels count];
-}
 
--(NSUInteger) imperialCount{
-    return [self.imperials count];
-}
-
--(NSUInteger) mixtaCount{
-    return [self.mixta count];
-}
 
 
 #pragma mark -  init
@@ -105,9 +98,12 @@
         
 
         
-        _rebels = @[chewie, yoda, c3po, r2d2];
-        _imperials = @[vader, tarkin, palpatine];
-        _mixta = @[vader, yoda, tarkin];
+        _listas = @[@[chewie, yoda, c3po, r2d2],
+                    @[vader, tarkin, palpatine],
+                    @[vader, yoda, tarkin]];
+    
+        _titulos=@[@"Rebel Alliance",@"Galactic Empire",@"Chancy Alliance"];
+        _prim=tarkin;
         
     }
     return self;
@@ -115,6 +111,35 @@
 
 
 #pragma mark - Accessors
+-(AGTStarWarsCharacter *) sicPrimero{
+    return _prim;
+    
+}
+
+-(NSString *) elTitulo:(NSInteger)sectionNumber{
+    return _titulos[sectionNumber];
+}
+
+-(AGTStarWarsCharacter *) sicCharacterDef:(NSIndexPath *)indexPath{
+    
+    
+    return [_listas[indexPath.section] objectAtIndex:indexPath.row];
+}
+
+-(NSInteger ) numberSections:(NSInteger)sectionNumber{
+    NSInteger retorno;
+    switch ((int)sectionNumber) {
+        case -1:
+            retorno=[_listas count];
+            break;
+        default:
+            retorno =[_listas[sectionNumber] count];
+            break;
+    }
+    return retorno;
+}
+
+/*
 -(AGTStarWarsCharacter *) rebelAtIndex:(NSUInteger) index{
     
     return [self.rebels objectAtIndex:index];
@@ -131,7 +156,7 @@
 }
 
 
-
+*/
 
 
 
