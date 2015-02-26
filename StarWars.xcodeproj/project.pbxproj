@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDAEF5C11A8F43E200160D56 /* UIViewController+Combinators.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAEF5C01A8F43E200160D56 /* UIViewController+Combinators.m */; };
+		EDFE1C111A852D40005C2CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C101A852D40005C2CBF /* main.m */; };
+		EDFE1C141A852D40005C2CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C131A852D40005C2CBF /* AppDelegate.m */; };
+		EDFE1C161A852D40005C2CBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C151A852D40005C2CBF /* Images.xcassets */; };
+		EDFE1C191A852D40005C2CBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C171A852D40005C2CBF /* LaunchScreen.xib */; };
+		EDFE1C251A852D40005C2CBF /* StarWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C241A852D40005C2CBF /* StarWarsTests.m */; };
+		EDFE1C301A8534D1005C2CBF /* AGTStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C2F1A8534D1005C2CBF /* AGTStarWarsCharacter.m */; };
+		EDFE1C351A853E1A005C2CBF /* AGTCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C331A853E1A005C2CBF /* AGTCharacterViewController.m */; };
+		EDFE1C361A853E1A005C2CBF /* AGTCharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C341A853E1A005C2CBF /* AGTCharacterViewController.xib */; };
+		EDFE1C481A854EE6005C2CBF /* c3po.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C381A854EE6005C2CBF /* c3po.caf */; };
+		EDFE1C491A854EE6005C2CBF /* c3po.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C391A854EE6005C2CBF /* c3po.jpg */; };
+		EDFE1C4A1A854EE6005C2CBF /* chewbacca.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C3A1A854EE6005C2CBF /* chewbacca.caf */; };
+		EDFE1C4B1A854EE6005C2CBF /* chewbacca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C3B1A854EE6005C2CBF /* chewbacca.jpg */; };
+		EDFE1C4C1A854EE6005C2CBF /* darthVader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C3C1A854EE6005C2CBF /* darthVader.jpg */; };
+		EDFE1C4D1A854EE6005C2CBF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C3D1A854EE6005C2CBF /* icon.png */; };
+		EDFE1C4E1A854EE6005C2CBF /* iconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C3E1A854EE6005C2CBF /* iconSmall.png */; };
+		EDFE1C4F1A854EE6005C2CBF /* palpatine.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C3F1A854EE6005C2CBF /* palpatine.caf */; };
+		EDFE1C501A854EE6005C2CBF /* palpatine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C401A854EE6005C2CBF /* palpatine.jpg */; };
+		EDFE1C511A854EE6005C2CBF /* r2-d2.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C411A854EE6005C2CBF /* r2-d2.caf */; };
+		EDFE1C521A854EE6005C2CBF /* R2-D2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C421A854EE6005C2CBF /* R2-D2.jpg */; };
+		EDFE1C531A854EE6005C2CBF /* tarkin.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C431A854EE6005C2CBF /* tarkin.caf */; };
+		EDFE1C541A854EE6005C2CBF /* tarkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C441A854EE6005C2CBF /* tarkin.jpg */; };
+		EDFE1C551A854EE6005C2CBF /* vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C451A854EE6005C2CBF /* vader.caf */; };
+		EDFE1C561A854EE6005C2CBF /* yoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C461A854EE6005C2CBF /* yoda.caf */; };
+		EDFE1C571A854EE6005C2CBF /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C471A854EE6005C2CBF /* yoda.jpg */; };
+		EDFE1C5B1A860316005C2CBF /* CafPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C5A1A860304005C2CBF /* CafPlayer.m */; };
+		EDFE1C601A861024005C2CBF /* AGTWikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C5E1A861024005C2CBF /* AGTWikiViewController.m */; };
+		EDFE1C611A861024005C2CBF /* AGTWikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFE1C5F1A861024005C2CBF /* AGTWikiViewController.xib */; };
+		EDFE1C641A863E56005C2CBF /* AGTStarWarsUniverse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C631A863E56005C2CBF /* AGTStarWarsUniverse.m */; };
+		EDFE1C671A864473005C2CBF /* AGTStarWarsUniverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE1C661A864473005C2CBF /* AGTStarWarsUniverseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDFE1C1F1A852D40005C2CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFE1C031A852D40005C2CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFE1C0A1A852D40005C2CBF;
+			remoteInfo = StarWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDAEF5BF1A8F43E200160D56 /* UIViewController+Combinators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Combinators.h"; sourceTree = "<group>"; };
+		EDAEF5C01A8F43E200160D56 /* UIViewController+Combinators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Combinators.m"; sourceTree = "<group>"; };
+		EDFE1C0B1A852D40005C2CBF /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFE1C0F1A852D40005C2CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFE1C101A852D40005C2CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDFE1C121A852D40005C2CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDFE1C131A852D40005C2CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDFE1C151A852D40005C2CBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDFE1C181A852D40005C2CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDFE1C1E1A852D40005C2CBF /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFE1C231A852D40005C2CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFE1C241A852D40005C2CBF /* StarWarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsTests.m; sourceTree = "<group>"; };
+		EDFE1C2E1A8534D1005C2CBF /* AGTStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTStarWarsCharacter.h; sourceTree = "<group>"; };
+		EDFE1C2F1A8534D1005C2CBF /* AGTStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTStarWarsCharacter.m; sourceTree = "<group>"; };
+		EDFE1C321A853E1A005C2CBF /* AGTCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCharacterViewController.h; sourceTree = "<group>"; };
+		EDFE1C331A853E1A005C2CBF /* AGTCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCharacterViewController.m; sourceTree = "<group>"; };
+		EDFE1C341A853E1A005C2CBF /* AGTCharacterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTCharacterViewController.xib; sourceTree = "<group>"; };
+		EDFE1C381A854EE6005C2CBF /* c3po.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c3po.caf; sourceTree = "<group>"; };
+		EDFE1C391A854EE6005C2CBF /* c3po.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c3po.jpg; sourceTree = "<group>"; };
+		EDFE1C3A1A854EE6005C2CBF /* chewbacca.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chewbacca.caf; sourceTree = "<group>"; };
+		EDFE1C3B1A854EE6005C2CBF /* chewbacca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chewbacca.jpg; sourceTree = "<group>"; };
+		EDFE1C3C1A854EE6005C2CBF /* darthVader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darthVader.jpg; sourceTree = "<group>"; };
+		EDFE1C3D1A854EE6005C2CBF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EDFE1C3E1A854EE6005C2CBF /* iconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSmall.png; sourceTree = "<group>"; };
+		EDFE1C3F1A854EE6005C2CBF /* palpatine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = palpatine.caf; sourceTree = "<group>"; };
+		EDFE1C401A854EE6005C2CBF /* palpatine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palpatine.jpg; sourceTree = "<group>"; };
+		EDFE1C411A854EE6005C2CBF /* r2-d2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "r2-d2.caf"; sourceTree = "<group>"; };
+		EDFE1C421A854EE6005C2CBF /* R2-D2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R2-D2.jpg"; sourceTree = "<group>"; };
+		EDFE1C431A854EE6005C2CBF /* tarkin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tarkin.caf; sourceTree = "<group>"; };
+		EDFE1C441A854EE6005C2CBF /* tarkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarkin.jpg; sourceTree = "<group>"; };
+		EDFE1C451A854EE6005C2CBF /* vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vader.caf; sourceTree = "<group>"; };
+		EDFE1C461A854EE6005C2CBF /* yoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.caf; sourceTree = "<group>"; };
+		EDFE1C471A854EE6005C2CBF /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		EDFE1C591A860304005C2CBF /* CafPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CafPlayer.h; sourceTree = "<group>"; };
+		EDFE1C5A1A860304005C2CBF /* CafPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafPlayer.m; sourceTree = "<group>"; };
+		EDFE1C5D1A861024005C2CBF /* AGTWikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWikiViewController.h; sourceTree = "<group>"; };
+		EDFE1C5E1A861024005C2CBF /* AGTWikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWikiViewController.m; sourceTree = "<group>"; };
+		EDFE1C5F1A861024005C2CBF /* AGTWikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTWikiViewController.xib; sourceTree = "<group>"; };
+		EDFE1C621A863E56005C2CBF /* AGTStarWarsUniverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTStarWarsUniverse.h; sourceTree = "<group>"; };
+		EDFE1C631A863E56005C2CBF /* AGTStarWarsUniverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTStarWarsUniverse.m; sourceTree = "<group>"; };
+		EDFE1C651A864473005C2CBF /* AGTStarWarsUniverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTStarWarsUniverseViewController.h; sourceTree = "<group>"; };
+		EDFE1C661A864473005C2CBF /* AGTStarWarsUniverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTStarWarsUniverseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFE1C081A852D40005C2CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE1C1B1A852D40005C2CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDAEF5BE1A8F437200160D56 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEF5BF1A8F43E200160D56 /* UIViewController+Combinators.h */,
+				EDAEF5C01A8F43E200160D56 /* UIViewController+Combinators.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EDFE1C021A852D40005C2CBF = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C0D1A852D40005C2CBF /* StarWars */,
+				EDFE1C211A852D40005C2CBF /* StarWarsTests */,
+				EDFE1C0C1A852D40005C2CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFE1C0C1A852D40005C2CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C0B1A852D40005C2CBF /* StarWars.app */,
+				EDFE1C1E1A852D40005C2CBF /* StarWarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFE1C0D1A852D40005C2CBF /* StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEF5BE1A8F437200160D56 /* Categories */,
+				EDFE1C5C1A860506005C2CBF /* Sound */,
+				EDFE1C581A854EF0005C2CBF /* Resources */,
+				EDFE1C121A852D40005C2CBF /* AppDelegate.h */,
+				EDFE1C131A852D40005C2CBF /* AppDelegate.m */,
+				EDFE1C151A852D40005C2CBF /* Images.xcassets */,
+				EDFE1C171A852D40005C2CBF /* LaunchScreen.xib */,
+				EDFE1C0E1A852D40005C2CBF /* Supporting Files */,
+				EDFE1C311A8534DB005C2CBF /* Models */,
+				EDFE1C371A854C7D005C2CBF /* Controllers */,
+			);
+			path = StarWars;
+			sourceTree = "<group>";
+		};
+		EDFE1C0E1A852D40005C2CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C0F1A852D40005C2CBF /* Info.plist */,
+				EDFE1C101A852D40005C2CBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDFE1C211A852D40005C2CBF /* StarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C241A852D40005C2CBF /* StarWarsTests.m */,
+				EDFE1C221A852D40005C2CBF /* Supporting Files */,
+			);
+			path = StarWarsTests;
+			sourceTree = "<group>";
+		};
+		EDFE1C221A852D40005C2CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C231A852D40005C2CBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDFE1C311A8534DB005C2CBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C2E1A8534D1005C2CBF /* AGTStarWarsCharacter.h */,
+				EDFE1C2F1A8534D1005C2CBF /* AGTStarWarsCharacter.m */,
+				EDFE1C621A863E56005C2CBF /* AGTStarWarsUniverse.h */,
+				EDFE1C631A863E56005C2CBF /* AGTStarWarsUniverse.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EDFE1C371A854C7D005C2CBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C321A853E1A005C2CBF /* AGTCharacterViewController.h */,
+				EDFE1C331A853E1A005C2CBF /* AGTCharacterViewController.m */,
+				EDFE1C341A853E1A005C2CBF /* AGTCharacterViewController.xib */,
+				EDFE1C5D1A861024005C2CBF /* AGTWikiViewController.h */,
+				EDFE1C5E1A861024005C2CBF /* AGTWikiViewController.m */,
+				EDFE1C5F1A861024005C2CBF /* AGTWikiViewController.xib */,
+				EDFE1C651A864473005C2CBF /* AGTStarWarsUniverseViewController.h */,
+				EDFE1C661A864473005C2CBF /* AGTStarWarsUniverseViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EDFE1C581A854EF0005C2CBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C381A854EE6005C2CBF /* c3po.caf */,
+				EDFE1C391A854EE6005C2CBF /* c3po.jpg */,
+				EDFE1C3A1A854EE6005C2CBF /* chewbacca.caf */,
+				EDFE1C3B1A854EE6005C2CBF /* chewbacca.jpg */,
+				EDFE1C3C1A854EE6005C2CBF /* darthVader.jpg */,
+				EDFE1C3D1A854EE6005C2CBF /* icon.png */,
+				EDFE1C3E1A854EE6005C2CBF /* iconSmall.png */,
+				EDFE1C3F1A854EE6005C2CBF /* palpatine.caf */,
+				EDFE1C401A854EE6005C2CBF /* palpatine.jpg */,
+				EDFE1C411A854EE6005C2CBF /* r2-d2.caf */,
+				EDFE1C421A854EE6005C2CBF /* R2-D2.jpg */,
+				EDFE1C431A854EE6005C2CBF /* tarkin.caf */,
+				EDFE1C441A854EE6005C2CBF /* tarkin.jpg */,
+				EDFE1C451A854EE6005C2CBF /* vader.caf */,
+				EDFE1C461A854EE6005C2CBF /* yoda.caf */,
+				EDFE1C471A854EE6005C2CBF /* yoda.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EDFE1C5C1A860506005C2CBF /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE1C591A860304005C2CBF /* CafPlayer.h */,
+				EDFE1C5A1A860304005C2CBF /* CafPlayer.m */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFE1C0A1A852D40005C2CBF /* StarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFE1C281A852D40005C2CBF /* Build configuration list for PBXNativeTarget "StarWars" */;
+			buildPhases = (
+				EDFE1C071A852D40005C2CBF /* Sources */,
+				EDFE1C081A852D40005C2CBF /* Frameworks */,
+				EDFE1C091A852D40005C2CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWars;
+			productName = StarWars;
+			productReference = EDFE1C0B1A852D40005C2CBF /* StarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDFE1C1D1A852D40005C2CBF /* StarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFE1C2B1A852D40005C2CBF /* Build configuration list for PBXNativeTarget "StarWarsTests" */;
+			buildPhases = (
+				EDFE1C1A1A852D40005C2CBF /* Sources */,
+				EDFE1C1B1A852D40005C2CBF /* Frameworks */,
+				EDFE1C1C1A852D40005C2CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFE1C201A852D40005C2CBF /* PBXTargetDependency */,
+			);
+			name = StarWarsTests;
+			productName = StarWarsTests;
+			productReference = EDFE1C1E1A852D40005C2CBF /* StarWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFE1C031A852D40005C2CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Agbo;
+				TargetAttributes = {
+					EDFE1C0A1A852D40005C2CBF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EDFE1C1D1A852D40005C2CBF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EDFE1C0A1A852D40005C2CBF;
+					};
+				};
+			};
+			buildConfigurationList = EDFE1C061A852D40005C2CBF /* Build configuration list for PBXProject "StarWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDFE1C021A852D40005C2CBF;
+			productRefGroup = EDFE1C0C1A852D40005C2CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFE1C0A1A852D40005C2CBF /* StarWars */,
+				EDFE1C1D1A852D40005C2CBF /* StarWarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFE1C091A852D40005C2CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFE1C4E1A854EE6005C2CBF /* iconSmall.png in Resources */,
+				EDFE1C521A854EE6005C2CBF /* R2-D2.jpg in Resources */,
+				EDFE1C541A854EE6005C2CBF /* tarkin.jpg in Resources */,
+				EDFE1C191A852D40005C2CBF /* LaunchScreen.xib in Resources */,
+				EDFE1C501A854EE6005C2CBF /* palpatine.jpg in Resources */,
+				EDFE1C611A861024005C2CBF /* AGTWikiViewController.xib in Resources */,
+				EDFE1C531A854EE6005C2CBF /* tarkin.caf in Resources */,
+				EDFE1C491A854EE6005C2CBF /* c3po.jpg in Resources */,
+				EDFE1C571A854EE6005C2CBF /* yoda.jpg in Resources */,
+				EDFE1C4D1A854EE6005C2CBF /* icon.png in Resources */,
+				EDFE1C4C1A854EE6005C2CBF /* darthVader.jpg in Resources */,
+				EDFE1C561A854EE6005C2CBF /* yoda.caf in Resources */,
+				EDFE1C4F1A854EE6005C2CBF /* palpatine.caf in Resources */,
+				EDFE1C4A1A854EE6005C2CBF /* chewbacca.caf in Resources */,
+				EDFE1C511A854EE6005C2CBF /* r2-d2.caf in Resources */,
+				EDFE1C551A854EE6005C2CBF /* vader.caf in Resources */,
+				EDFE1C481A854EE6005C2CBF /* c3po.caf in Resources */,
+				EDFE1C161A852D40005C2CBF /* Images.xcassets in Resources */,
+				EDFE1C361A853E1A005C2CBF /* AGTCharacterViewController.xib in Resources */,
+				EDFE1C4B1A854EE6005C2CBF /* chewbacca.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE1C1C1A852D40005C2CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFE1C071A852D40005C2CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFE1C141A852D40005C2CBF /* AppDelegate.m in Sources */,
+				EDFE1C671A864473005C2CBF /* AGTStarWarsUniverseViewController.m in Sources */,
+				EDFE1C641A863E56005C2CBF /* AGTStarWarsUniverse.m in Sources */,
+				EDFE1C301A8534D1005C2CBF /* AGTStarWarsCharacter.m in Sources */,
+				EDFE1C5B1A860316005C2CBF /* CafPlayer.m in Sources */,
+				EDFE1C601A861024005C2CBF /* AGTWikiViewController.m in Sources */,
+				EDFE1C111A852D40005C2CBF /* main.m in Sources */,
+				EDAEF5C11A8F43E200160D56 /* UIViewController+Combinators.m in Sources */,
+				EDFE1C351A853E1A005C2CBF /* AGTCharacterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE1C1A1A852D40005C2CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFE1C251A852D40005C2CBF /* StarWarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDFE1C201A852D40005C2CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFE1C0A1A852D40005C2CBF /* StarWars */;
+			targetProxy = EDFE1C1F1A852D40005C2CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDFE1C171A852D40005C2CBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFE1C181A852D40005C2CBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDFE1C261A852D40005C2CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDFE1C271A852D40005C2CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDFE1C291A852D40005C2CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDFE1C2A1A852D40005C2CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDFE1C2C1A852D40005C2CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars.app/StarWars";
+			};
+			name = Debug;
+		};
+		EDFE1C2D1A852D40005C2CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars.app/StarWars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFE1C061A852D40005C2CBF /* Build configuration list for PBXProject "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFE1C261A852D40005C2CBF /* Debug */,
+				EDFE1C271A852D40005C2CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFE1C281A852D40005C2CBF /* Build configuration list for PBXNativeTarget "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFE1C291A852D40005C2CBF /* Debug */,
+				EDFE1C2A1A852D40005C2CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFE1C2B1A852D40005C2CBF /* Build configuration list for PBXNativeTarget "StarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFE1C2C1A852D40005C2CBF /* Debug */,
+				EDFE1C2D1A852D40005C2CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFE1C031A852D40005C2CBF /* Project object */;
+}
